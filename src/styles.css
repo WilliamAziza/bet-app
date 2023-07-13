@@ -1,0 +1,157 @@
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    font-weight: 800;
+    padding-top: 3px;
+    background-position: fixed;
+}
+
+.backyard{
+    background-image: url(./components/images/stadium.avif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px          
+}
+.welcome{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.high{
+    color: white;
+    font-size: 25px;
+    font-weight: initial;
+    text-align: left;
+    padding-left: 50px;
+}
+.preview{
+    background-color: rgb(255, 8, 0);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+    background-image: url(./components/images/about.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    color: white; 
+    padding-top: 80px;
+    padding-left: 80px;   
+    margin-bottom: 0px;
+}
+
+.intro{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+
+}
+.sub{
+    background-color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.aboutText{
+    background-color: rgb(233, 229, 229);
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+.col1{
+    background-color: rgb(4, 116, 13);
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    border: 1px rgb(4, 116, 13) ;
+    
+}
+.col2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.won{
+
+    background-image: url(./components/images/trophy.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    color: black; 
+    padding-top: 80px;
+    padding-left: 80px;   
+    margin-bottom: 0px;   
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: left;
+}
+.winning{
+    font-size: 20px  ;
+}
+
+.success{
+    font-size: 40px;
+    font-weight: bold;
+}
+.but{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.but1{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: green;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.form{
+    background-color: black;
+    color: yellow;
+    width: 300px;
+    margin-left: 45%;
+}
+.buttonText{
+    background-color: black;
+    color: rgb(87, 87, 79);
+}
+.slips{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.butimg{
+    background-color: rgb(4, 92, 4);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: bold;
+}
