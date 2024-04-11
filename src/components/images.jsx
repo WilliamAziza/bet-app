@@ -5,5 +5,8 @@ export const images = {
     soccer: require('./images/soccer.webp'),
     trophy: require('./images/trophy.webp'),
     slip1: require('./images/slip 1.jpg'),
-    slip2: require('./images/slip 2.jpg')
+    slip2: require('./images/slip 2.jpg'),
+    yes: require('./images/Yes.gif'),
+    no: require('./images/No.gif'),
+    val: require('./images/vals.jfif')
 }

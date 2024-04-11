@@ -23,6 +23,25 @@ class WonSlips extends Component {
                 
                 <br/>
                 <button className='butimg'>MORE IMAGES</button>
+                <div className='box'>
+                            <div className='col1'>
+                                <p className='col2'>5,346</p>
+                                <p>SUBSCRIBED CLIENTS</p>
+                            </div>
+                            <div className='col1' >
+                                <p className='col2'>8 </p>
+                                <p>GATEWAYS</p>
+                            </div>
+                            <div className='col1'>
+                            <p className='col2'>172</p>
+                            <p>PREDICTIONS</p>
+                            </div>
+                            
+                            <div className='col1'>
+                            <p className='col2'>4,320</p>
+                           <p>SATISFIED CLIENTS</p>
+                            </div>    
+                        </div>
             </div>
         );
     }
