@@ -10,19 +10,18 @@ class Router extends Component {
     render() {
         return (
             <BrowserRouter>
-                <nav className='navlink' fixed="top">
-                    
-                        
-                            <Navbar.Brand href="/"className='navlink' fixed="top">Willie's Odds</Navbar.Brand>
-                            
-                                <Link to='/' className='navlink'>HOME</Link>
-                                <Link to='/about' className='navlink'>ABOUT US</Link>
-                                <Link to='/wonSlips'className='navlink'>WON SLIPS</Link>
-                            
-                        
+                <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="px-4">
+                    <Navbar.Brand href="/" className="fw-bold">Willie's Odds</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/about">About Us</Nav.Link>
+                            <Nav.Link href="/wonSlips">Won Slips</Nav.Link>
+                        </Nav>
                         <Login />
-                    
-                </nav>
+                    </Navbar.Collapse>
+                </Navbar>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='/about' element={<About/>}/>

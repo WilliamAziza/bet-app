@@ -1,0 +1,49 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('./images/stadium.avif') no-repeat center center;
+  background-size: cover;
+  min-height: 70vh;
+  color: white;
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.hero-players-image {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+  z-index: 10;
+}
+
+.content-section {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.content-section p:last-child {
+  margin-bottom: 0;
+}

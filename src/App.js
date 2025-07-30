@@ -9,8 +9,7 @@ import val from './val.css'
 function App() {
   return (
     <div className="App">
-      {/* <Router/> */}
-      <ValentineCard/>
+      <Router/>
     </div>
   );
 }
